@@ -1,16 +1,17 @@
 ### Hi there 👋
+#!/bin/bash
 
-<!--
-**kerakelv/kerakelv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+function colors {
+  GREEN="\e[32m"
+  RED="\e[39m"
+  NORMAL="\e[0m"
+}
 
-Here are some ideas to get you started:
+colors
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+echo -e "${GREEN}╔╗╔═╗░░░░░░░╔╗░░░░╔╗░░░░${NORMAL}"
+echo -e "${GREEN}║║║╔╝░░░░░░░║║░░░░║║░░░░${NORMAL}"
+echo -e "${GREEN}║╚╝╝╔══╦═╦══╣║╔╦══╣║╔╗╔╗${NORMAL}"
+echo -e "${GREEN}║╔╗║║║═╣╔╣╔╗║╚╝╣║═╣║║╚╝║${NORMAL}"
+echo -e "${GREEN}║║║╚╣║═╣║║╔╗║╔╗╣║═╣╚╬╗╔╝${NORMAL}"
+echo -e "${GREEN}╚╝╚═╩══╩╝╚╝╚╩╝╚╩══╩═╝╚╝░${NORMAL}"
